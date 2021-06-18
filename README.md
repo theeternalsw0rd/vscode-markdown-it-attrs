@@ -1,1 +1,1 @@
-Adds [{markdown-it-attrs}](https://www.npmjs.com/package/markdown-it-attrs) support to VS Code's built-in Markdown preview.
+Adds [{markdown-it-attrs}](https://www.npmjs.com/package/markdown-it-attrs) support to VSCode's built-in Markdown preview.
