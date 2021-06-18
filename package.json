@@ -1,0 +1,38 @@
+{
+  "name": "vscode-markdown-it-attrs",
+  "version": "0.1.0",
+  "displayName": "VSCode markdown-it-attrs",
+  "description": "Adds markdown-it-attrs support to VSCode's built-in markdown preview.",
+  "keywords": [
+    "attributes",
+    "markdown",
+    "attrs",
+    "github",
+    "multi-root ready"
+  ],
+  "publisher": "theeternalsw0rd",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/theeternalsw0rd/vscode-markdown-it-attrs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theeternalsw0rd/vscode-markdown-it-attrs/issues"
+  },
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "main": "./extension.js",
+  "devDependencies": {
+    "@types/vscode": "^1.33.0"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^4.0.0"
+  }
+}
